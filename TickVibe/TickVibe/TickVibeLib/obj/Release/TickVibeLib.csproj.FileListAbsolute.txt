@@ -1,0 +1,11 @@
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\bin\Release\TickVibeLib.dll
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\bin\Release\TickVibeLib.pdb
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\bin\Release\BouncyCastle.Cryptography.dll
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\bin\Release\itextsharp.dll
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\bin\Release\BouncyCastle.Cryptography.xml
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\bin\Release\itextsharp.xml
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\obj\Release\TickVibeLib.csproj.AssemblyReference.cache
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\obj\Release\TickVibeLib.csproj.CoreCompileInputs.cache
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\obj\Release\TickVibe.EC84D530.Up2Date
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\obj\Release\TickVibeLib.dll
+E:\TicketingToolFinalMergeProject\TickVibe\TickVibe\TickVibeLib\obj\Release\TickVibeLib.pdb

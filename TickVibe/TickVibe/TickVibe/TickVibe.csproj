@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80B42086-47F7-4D9D-B079-007F534AB2DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TickVibe</RootNamespace>
+    <AssemblyName>TickVibe</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.6.2\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.105.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.105.0\lib\netstandard2.0\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML.Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1d5f7376574c51ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.Parser.2.0.0\lib\netstandard2.0\ClosedXML.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=3.1.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.3.1.1\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml.Framework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.Framework.3.1.1\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.1.0.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.5, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.5\lib\net461\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="RBush, Version=4.0.0.0, Culture=neutral, PublicKeyToken=c77e27b81f4d0187, processorArchitecture=MSIL">
+      <HintPath>..\packages\RBush.Signed.4.0.0\lib\net47\RBush.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Siticone.Desktop.UI.2.1.1\lib\net40\Siticone.Desktop.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.UI">
+      <HintPath>Content\Siticone.UI\Siticone.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.Fonts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.7.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProfilePS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfilePS.Designer.cs">
+      <DependentUpon>ProfilePS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\ChangePasswordPS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\ChangePasswordPS.Designer.cs">
+      <DependentUpon>ChangePasswordPS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAddAttachmentVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAddAttachmentVN.Designer.cs">
+      <DependentUpon>frmAddAttachmentVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAddNewSubjectVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAddNewSubjectVN.Designer.cs">
+      <DependentUpon>frmAddNewSubjectVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAdminVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAdminVN.designer.cs">
+      <DependentUpon>frmAdminVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAgentAllTicketsAssignedMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAgentAllTicketsAssignedMB.Designer.cs">
+      <DependentUpon>frmAgentAllTicketsAssignedMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAgentTabularViewFixMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAgentTabularViewFixMB.Designer.cs">
+      <DependentUpon>frmAgentTabularViewFixMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAgentViewChartTypeColumnMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAgentViewChartTypeColumnMB.Designer.cs">
+      <DependentUpon>frmAgentViewChartTypeColumnMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAgentVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAgentVN.designer.cs">
+      <DependentUpon>frmAgentVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAttachmentUpdateVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAttachmentUpdateVN.Designer.cs">
+      <DependentUpon>frmAttachmentUpdateVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAttachmentViewVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAttachmentViewVN.Designer.cs">
+      <DependentUpon>frmAttachmentViewVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmCreateTicketVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmCreateTicketVN.Designer.cs">
+      <DependentUpon>frmCreateTicketVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmDashSA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmDashSA.Designer.cs">
+      <DependentUpon>frmDashSA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEditProfilePS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEditProfilePS.Designer.cs">
+      <DependentUpon>frmEditProfilePS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeDetailsSB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeDetailsSB.Designer.cs">
+      <DependentUpon>frmEmployeeDetailsSB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeFixStatusSpecificTabularViewMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeFixStatusSpecificTabularViewMB.Designer.cs">
+      <DependentUpon>frmEmployeeFixStatusSpecificTabularViewMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeGraphicalViewMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeGraphicalViewMB.Designer.cs">
+      <DependentUpon>frmEmployeeGraphicalViewMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeTabularViewMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeTabularViewMB.Designer.cs">
+      <DependentUpon>frmEmployeeTabularViewMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeTicketViewSB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeTicketViewSB.Designer.cs">
+      <DependentUpon>frmEmployeeTicketViewSB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeViewChartTypeColumnMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeViewChartTypeColumnMB.Designer.cs">
+      <DependentUpon>frmEmployeeViewChartTypeColumnMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEmployeeVN.designer.cs">
+      <DependentUpon>frmEmployeeVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmForgotPasswordVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmForgotPasswordVN.designer.cs">
+      <DependentUpon>frmForgotPasswordVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmgridviewAllAgentReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmgridviewAllAgentReport.Designer.cs">
+      <DependentUpon>frmgridviewAllAgentReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmGridViewStatusEmployeeMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmGridViewStatusEmployeeMB.Designer.cs">
+      <DependentUpon>frmGridViewStatusEmployeeMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmGridViewStatusMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmGridViewStatusMB.Designer.cs">
+      <DependentUpon>frmGridViewStatusMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmLoginVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmLoginVN.designer.cs">
+      <DependentUpon>frmLoginVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmLstView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmLstView.Designer.cs">
+      <DependentUpon>frmLstView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmNewTicketPG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmNewTicketPG.Designer.cs">
+      <DependentUpon>frmNewTicketPG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmReportMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmReportMB.Designer.cs">
+      <DependentUpon>frmReportMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmResetpasswordVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmResetpasswordVN.designer.cs">
+      <DependentUpon>frmResetpasswordVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAddAgentRN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAddAgentRN.Designer.cs">
+      <DependentUpon>frmAddAgentRN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAddAuthorAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmAddAuthorAL.Designer.cs">
+      <DependentUpon>frmAddAuthorAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmBlogAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmBlogAL.Designer.cs">
+      <DependentUpon>frmBlogAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmBlogListAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmBlogListAL.Designer.cs">
+      <DependentUpon>frmBlogListAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmBlogPageAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmBlogPageAL.Designer.cs">
+      <DependentUpon>frmBlogPageAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmCreateBlogPostAL1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmCreateBlogPostAL1.Designer.cs">
+      <DependentUpon>frmCreateBlogPostAL1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmCreateTicketPG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmCreateTicketPG.Designer.cs">
+      <DependentUpon>frmCreateTicketPG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEditAgentRN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEditAgentRN.Designer.cs">
+      <DependentUpon>frmEditAgentRN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEditBlogPostAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmEditBlogPostAL.Designer.cs">
+      <DependentUpon>frmEditBlogPostAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmKnowledgeBaseBlogAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmKnowledgeBaseBlogAL.Designer.cs">
+      <DependentUpon>frmKnowledgeBaseBlogAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmMemberManagementRN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmMemberManagementRN.Designer.cs">
+      <DependentUpon>frmMemberManagementRN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmNewticketSG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmNewticketSG.Designer.cs">
+      <DependentUpon>frmNewticketSG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmNotificationAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmNotificationAL.Designer.cs">
+      <DependentUpon>frmNotificationAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmShowBlogListViewAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmShowBlogListViewAL.Designer.cs">
+      <DependentUpon>frmShowBlogListViewAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmSideBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmSideBar.Designer.cs">
+      <DependentUpon>frmSideBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmUpdateTicketsVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmUpdateTicketsVN.Designer.cs">
+      <DependentUpon>frmUpdateTicketsVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmUserControlBloginfoAL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmUserControlBloginfoAL.Designer.cs">
+      <DependentUpon>frmUserControlBloginfoAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmViewAgentRN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmViewAgentRN.Designer.cs">
+      <DependentUpon>frmViewAgentRN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmViewIPTicketPG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmViewIPTicketPG.Designer.cs">
+      <DependentUpon>frmViewIPTicketPG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmViewTicketSG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmViewTicketSG.Designer.cs">
+      <DependentUpon>frmViewTicketSG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\TickVibe\frmViewTicketVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmViewTicketVN.Designer.cs">
+      <DependentUpon>frmViewTicketVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmViewVN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\frmViewVN.Designer.cs">
+      <DependentUpon>frmViewVN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TickVibe\Reassign1SG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\TickVibe\Reassign1SG.Designer.cs">
+      <DependentUpon>Reassign1SG.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ProfilePS.resx">
+      <DependentUpon>ProfilePS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\ChangePasswordPS.resx">
+      <DependentUpon>ChangePasswordPS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAddAttachmentVN.resx">
+      <DependentUpon>frmAddAttachmentVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAddNewSubjectVN.resx">
+      <DependentUpon>frmAddNewSubjectVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAdminVN.resx">
+      <DependentUpon>frmAdminVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAgentAllTicketsAssignedMB.resx">
+      <DependentUpon>frmAgentAllTicketsAssignedMB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAgentTabularViewFixMB.resx">
+      <DependentUpon>frmAgentTabularViewFixMB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAgentViewChartTypeColumnMB.resx">
+      <DependentUpon>frmAgentViewChartTypeColumnMB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAgentVN.resx">
+      <DependentUpon>frmAgentVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAttachmentUpdateVN.resx">
+      <DependentUpon>frmAttachmentUpdateVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAttachmentViewVN.resx">
+      <DependentUpon>frmAttachmentViewVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmCreateTicketVN.resx">
+      <DependentUpon>frmCreateTicketVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmDashSA.resx">
+      <DependentUpon>frmDashSA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEditProfilePS.resx">
+      <DependentUpon>frmEditProfilePS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEmployeeDetailsSB.resx">
+      <DependentUpon>frmEmployeeDetailsSB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEmployeeFixStatusSpecificTabularViewMB.resx">
+      <DependentUpon>frmEmployeeFixStatusSpecificTabularViewMB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEmployeeGraphicalViewMB.resx">
+      <DependentUpon>frmEmployeeGraphicalViewMB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEmployeeTabularViewMB.resx">
+      <DependentUpon>frmEmployeeTabularViewMB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEmployeeTicketViewSB.aa-ER.resx">
+      <DependentUpon>frmEmployeeTicketViewSB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEmployeeTicketViewSB.resx">
+      <DependentUpon>frmEmployeeTicketViewSB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEmployeeViewChartTypeColumnMB.resx">
+      <DependentUpon>frmEmployeeViewChartTypeColumnMB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEmployeeVN.resx">
+      <DependentUpon>frmEmployeeVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmForgotPasswordVN.resx">
+      <DependentUpon>frmForgotPasswordVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmgridviewAllAgentReport.resx">
+      <DependentUpon>frmgridviewAllAgentReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmGridViewStatusEmployeeMB.resx">
+      <DependentUpon>frmGridViewStatusEmployeeMB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmGridViewStatusMB.resx">
+      <DependentUpon>frmGridViewStatusMB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmGridviewStatuswiseEmployee.resx" />
+    <EmbeddedResource Include="Resources\TickVibe\frmLoginVN.resx">
+      <DependentUpon>frmLoginVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmLstView.resx">
+      <DependentUpon>frmLstView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmNewTicketPG.resx">
+      <DependentUpon>frmNewTicketPG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmReportMB.resx">
+      <DependentUpon>frmReportMB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmResetpasswordVN.resx">
+      <DependentUpon>frmResetpasswordVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAddAgentRN.resx">
+      <DependentUpon>frmAddAgentRN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmAddAuthorAL.resx">
+      <DependentUpon>frmAddAuthorAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmBlogAL.resx">
+      <DependentUpon>frmBlogAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmBlogListAL.resx">
+      <DependentUpon>frmBlogListAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmBlogPageAL.resx">
+      <DependentUpon>frmBlogPageAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmCreateBlogPostAL1.resx">
+      <DependentUpon>frmCreateBlogPostAL1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmCreateTicketPG.resx">
+      <DependentUpon>frmCreateTicketPG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEditAgentRN.resx">
+      <DependentUpon>frmEditAgentRN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmEditBlogPostAL.resx">
+      <DependentUpon>frmEditBlogPostAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmKnowledgeBaseBlogAL.resx">
+      <DependentUpon>frmKnowledgeBaseBlogAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmMemberManagementRN.resx">
+      <DependentUpon>frmMemberManagementRN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmNewticketSG.resx">
+      <DependentUpon>frmNewticketSG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmNotificationAL.resx">
+      <DependentUpon>frmNotificationAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmShowBlogListViewAL.resx">
+      <DependentUpon>frmShowBlogListViewAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmSideBar.resx">
+      <DependentUpon>frmSideBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmUpdateTicketsVN.resx">
+      <DependentUpon>frmUpdateTicketsVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmUserControlBloginfoAL.resx">
+      <DependentUpon>frmUserControlBloginfoAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmViewAgentRN.resx">
+      <DependentUpon>frmViewAgentRN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmViewIPTicketPG.resx">
+      <DependentUpon>frmViewIPTicketPG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmViewTicketSG.resx">
+      <DependentUpon>frmViewTicketSG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmViewTicketVN.resx">
+      <DependentUpon>frmViewTicketVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\frmViewVN.resx">
+      <DependentUpon>frmViewVN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TickVibe\Reassign1SG.resx">
+      <DependentUpon>Reassign1SG.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TickVibeLib\TickVibeLib.csproj">
+      <Project>{6782137c-68da-493e-b933-d9cd8035387e}</Project>
+      <Name>TickVibeLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\doc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icon\accept - Copy.png" />
+    <Content Include="Content\icon\add agent - Copy.png" />
+    <None Include="Resources\WhatsApp Image 2026-06-08 at 7.57.09 AM.jpeg" />
+    <None Include="Content\icon\clear.png" />
+    <None Include="Content\icon\show.png" />
+    <None Include="Content\icon\attach-document.png" />
+    <None Include="Content\icon\send.png" />
+    <None Include="Content\icon\delete.png" />
+    <Content Include="Content\icon\WhatsApp Image 2026-05-29 at 13.48.25.jpeg" />
+    <Content Include="Content\icon\WhatsApp Image 2026-05-29 at 13.49.12.jpeg" />
+    <Content Include="Content\icon\WhatsApp Image 2026-05-29 at 13.53.30 %281%29.jpeg" />
+    <Content Include="Content\icon\WhatsApp Image 2026-05-29 at 13.53.30 %282%29.jpeg" />
+    <Content Include="Content\icon\WhatsApp Image 2026-05-29 at 13.53.30 %283%29.jpeg" />
+    <Content Include="Content\icon\WhatsApp Image 2026-05-29 at 13.53.30 %284%29.jpeg" />
+    <Content Include="Content\icon\WhatsApp Image 2026-05-29 at 13.53.30.jpeg" />
+    <Content Include="Content\img\Agent.JPG1.jpg.jpeg" />
+    <Content Include="Content\img\Agent.JPG2.jpg.jpeg" />
+    <Content Include="Content\img\Agent.JPG3.jpg.jpeg" />
+    <Content Include="Content\img\network_issue_image.png" />
+    <Content Include="Content\img\network_issue_img1.jpg" />
+    <Content Include="Content\img\software_issue_img.jpg" />
+    <Content Include="Content\img\software_issue_img1.jpg" />
+    <Content Include="Content\img\software_issue_img2.jpg" />
+    <None Include="Resources\sandeepओ .jpg" />
+    <None Include="Content\icon\AddAgent.jpeg" />
+    <Content Include="Content\icon\agent - Copy.png" />
+    <Content Include="Content\icon\assign - Copy.png" />
+    <Content Include="Content\icon\attach-document - Copy.png" />
+    <None Include="Content\icon\Bold.jpeg" />
+    <None Include="Content\icon\blog.png" />
+    <Content Include="Content\icon\calendar - Copy.png" />
+    <Content Include="Content\icon\clear - Copy.png" />
+    <Content Include="Content\icon\close - Copy.png" />
+    <Content Include="Content\icon\confirm password - Copy.png" />
+    <Content Include="Content\icon\csv - Copy.png" />
+    <Content Include="Content\icon\dashboard - Copy.png" />
+    <Content Include="Content\icon\delete - Copy.png" />
+    <Content Include="Content\icon\edit - Copy.png" />
+    <Content Include="Content\icon\employee %282%29 - Copy.png" />
+    <Content Include="Content\icon\employee - Copy.png" />
+    <Content Include="Content\icon\excel - Copy.png" />
+    <Content Include="Content\icon\excel.png" />
+    <Content Include="Content\icon\filter - Copy.png" />
+    <Content Include="Content\icon\gallary - Copy.png" />
+    <Content Include="Content\icon\graphical view - Copy.png" />
+    <Content Include="Content\icon\hide - Copy.png" />
+    <None Include="Content\icon\Italic.jpeg" />
+    <None Include="Content\icon\Link.jpeg" />
+    <None Include="Content\icon\Image.jpeg" />
+    <Content Include="Content\icon\location - Copy.png" />
+    <Content Include="Content\icon\logout - Copy.png" />
+    <Content Include="Content\icon\mail - Copy.png" />
+    <Content Include="Content\icon\member management - Copy.png" />
+    <Content Include="Content\icon\notification - Copy.png" />
+    <Content Include="Content\icon\onhold - Copy.png" />
+    <Content Include="Content\icon\padlock - Copy.png" />
+    <None Include="Content\icon\pdf %283%29.png" />
+    <Content Include="Content\icon\pdf - Copy.png" />
+    <Content Include="Content\icon\plus-small - Copy.png" />
+    <Content Include="Content\icon\profile logo - Copy.png" />
+    <Content Include="Content\icon\Query Chat - Copy.png" />
+    <Content Include="Content\icon\refresh - Copy.png" />
+    <None Include="Content\icon\refresh.png" />
+    <Content Include="Content\icon\reject - Copy.png" />
+    <Content Include="Content\icon\report - Copy.png" />
+    <Content Include="Content\icon\reset password top icon - Copy.png" />
+    <Content Include="Content\icon\search - Copy.png" />
+    <Content Include="Content\icon\send - Copy.png" />
+    <Content Include="Content\icon\settings - Copy.png" />
+    <Content Include="Content\icon\show - Copy.png" />
+    <Content Include="Content\icon\smile - Copy.png" />
+    <Content Include="Content\icon\star - Copy.png" />
+    <Content Include="Content\icon\submit - Copy.png" />
+    <Content Include="Content\icon\tabular view - Copy.png" />
+    <Content Include="Content\icon\ticket %282%29 - Copy.png" />
+    <Content Include="Content\icon\ticket - Copy.png" />
+    <Content Include="Content\icon\ticket logo - Copy.png" />
+    <Content Include="Content\icon\ticket logo.png" />
+    <Content Include="Content\icon\update - Copy.png" />
+    <Content Include="Content\icon\view - Copy.png" />
+    <None Include="Content\icon\xls %282%29.png" />
+    <Content Include="Content\icon\xlsx %281%29 - Copy.png" />
+    <None Include="Content\img\Gemini_Generated_Image_8ek4po8ek4po8ek4.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

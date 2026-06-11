@@ -1,0 +1,896 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6782137C-68DA-493E-B933-D9CD8035387E}|TickVibeLib\\TickVibeLib.csproj|f:\\ticketingtoolfinalmergeproject\\tickvibe\\tickvibe\\tickvibelib\\clsteamleader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6782137C-68DA-493E-B933-D9CD8035387E}|TickVibeLib\\TickVibeLib.csproj|solutionrelative:tickvibelib\\clsteamleader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmeditprofileps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmeditprofileps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmeditprofileps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmeditprofileps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmemployeetabularviewmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmemployeetabularviewmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmemployeegraphicalviewmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmemployeegraphicalviewmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmemployeegraphicalviewmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmemployeegraphicalviewmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmblogpageal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmblogpageal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmblogpageal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmblogpageal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmbloglistal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmbloglistal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmblogal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmblogal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmnewticketsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmnewticketsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\reassign1sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\reassign1sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\reassign1sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\reassign1sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmsidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmsidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmsidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmsidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sachi_u4ojzjk\\AppData\\Local\\Temp\\.vsdbgsrc\\6d84f44908a2a9a8f0f790d3b9e11c85560b7d4657e1a91f97b842079b3ca7c5\\Control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmlstview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmlstview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmnewticketpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmnewticketpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmnewticketpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmnewticketpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmnewticketpg.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmnewticketpg.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmcreateticketpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmcreateticketpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\content\\img\\agent.jpg1.jpg.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\content\\img\\agent.jpg1.jpg.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmdashsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmdashsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmlstview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmlstview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmagenttabularviewfixmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmagenttabularviewfixmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmagentviewcharttypecolumnmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmagentviewcharttypecolumnmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmagentallticketsassignedmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmagentallticketsassignedmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmemployeeticketviewsb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmemployeeticketviewsb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmmembermanagementrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmmembermanagementrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmaddagentrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmaddagentrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmviewagentrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmviewagentrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmagenttabularviewfixmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmagenttabularviewfixmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmnewticketsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmnewticketsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmmembermanagementrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmmembermanagementrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmaddagentrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmaddagentrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmeditagentrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmeditagentrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmeditagentrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmeditagentrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmblogal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmblogal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmdashsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmdashsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmresetpasswordvn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmresetpasswordvn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmloginvn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmloginvn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmemployeedetailssb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmemployeedetailssb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmviewticketsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmviewticketsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmviewticketsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmviewticketsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmviewticketvn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmviewticketvn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmviewipticketpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmviewipticketpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmviewvn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmviewvn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmemployeeviewcharttypecolumnmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmemployeeviewcharttypecolumnmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmgridviewstatusmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmgridviewstatusmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmgridviewstatusemployeemb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmgridviewstatusemployeemb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmemployeefixstatusspecifictabularviewmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmemployeefixstatusspecifictabularviewmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmgridviewallagentreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmgridviewallagentreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmreportmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmreportmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmgridviewstatuswiseemployee.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmgridviewstatuswiseemployee.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmgridviewstatusmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmgridviewstatusmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmgridviewstatusemployeemb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmgridviewstatusemployeemb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmagentallticketsassignedmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmagentallticketsassignedmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmemployeedetailssb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmemployeedetailssb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\tickvibe\\resources\\tickvibe\\frmemployeedetailssb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B42086-47F7-4D9D-B079-007F534AB2DC}|TickVibe\\TickVibe.csproj|solutionrelative:tickvibe\\resources\\tickvibe\\frmemployeedetailssb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmCreateTicketPG.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmCreateTicketPG.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmCreateTicketPG.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmCreateTicketPG.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmEmployeeGraphicalViewMB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeGraphicalViewMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEmployeeGraphicalViewMB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeGraphicalViewMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmEmployeeGraphicalViewMB.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeGraphicalViewMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEmployeeGraphicalViewMB.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeGraphicalViewMB.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmEmployeeGraphicalViewMB.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwEcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsTeamLeader.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibeLib\\clsTeamLeader.cs",
+              "RelativeDocumentMoniker": "TickVibeLib\\clsTeamLeader.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibeLib\\clsTeamLeader.cs",
+              "RelativeToolTip": "TickVibeLib\\clsTeamLeader.cs",
+              "ViewState": "AgIAAJ0JAAAAAAAAAAASwK0JAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmEditProfilePS.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEditProfilePS.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEditProfilePS.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEditProfilePS.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmEditProfilePS.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwDUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-06-10T09:02:20.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmEditProfilePS.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEditProfilePS.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEditProfilePS.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEditProfilePS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-06-10T09:02:20.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmEmployeeTabularViewMB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeTabularViewMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEmployeeTabularViewMB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeTabularViewMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-06-10T09:02:20.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmBlogListAL.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmBlogListAL.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmBlogListAL.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmBlogListAL.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmBlogAL.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmBlogAL.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmBlogAL.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmBlogAL.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmBlogPageAL.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmBlogPageAL.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmBlogPageAL.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmBlogPageAL.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmBlogPageAL.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmBlogPageAL.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmBlogPageAL.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmBlogPageAL.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmBlogPageAL.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAnwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmSideBar.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmSideBar.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmSideBar.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmSideBar.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmSideBar.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAgwKEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Control.cs",
+              "DocumentMoniker": "C:\\Users\\sachi_u4ojzjk\\AppData\\Local\\Temp\\.vsdbgsrc\\6d84f44908a2a9a8f0f790d3b9e11c85560b7d4657e1a91f97b842079b3ca7c5\\Control.cs",
+              "ToolTip": "C:\\Users\\sachi_u4ojzjk\\AppData\\Local\\Temp\\.vsdbgsrc\\6d84f44908a2a9a8f0f790d3b9e11c85560b7d4657e1a91f97b842079b3ca7c5\\Control.cs",
+              "ViewState": "AgIAAL46AAAAAAAAAAAcwMo6AAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmSideBar.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmSideBar.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmSideBar.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmSideBar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmAddAgentRN.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAddAgentRN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmAddAgentRN.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAddAgentRN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmNewticketSG.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmNewticketSG.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmNewticketSG.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmNewticketSG.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmNewticketSG.cs",
+              "ViewState": "AgIAABwBAAAAAAAAAAA0wCcBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Reassign1SG.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\Reassign1SG.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\Reassign1SG.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\Reassign1SG.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\Reassign1SG.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAEwEYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmAgentTabularViewFixMB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAgentTabularViewFixMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmAgentTabularViewFixMB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAgentTabularViewFixMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Reassign1SG.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\Reassign1SG.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\Reassign1SG.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\Reassign1SG.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Agent.JPG1.jpg.jpeg",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Content\\img\\Agent.JPG1.jpg.jpeg",
+              "RelativeDocumentMoniker": "TickVibe\\Content\\img\\Agent.JPG1.jpg.jpeg",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Content\\img\\Agent.JPG1.jpg.jpeg",
+              "RelativeToolTip": "TickVibe\\Content\\img\\Agent.JPG1.jpg.jpeg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmNewTicketPG.Designer.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmNewTicketPG.Designer.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmNewTicketPG.Designer.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmNewTicketPG.Designer.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmNewTicketPG.Designer.cs",
+              "ViewState": "AgIAAJ0HAAAAAAAAAAAAAO4HAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmLstView.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmLstView.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmLstView.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmLstView.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmLstView.cs",
+              "ViewState": "AgIAAPoBAAAAAAAAAAAcwA4CAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmNewTicketPG.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmNewTicketPG.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmNewTicketPG.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmNewTicketPG.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmNewTicketPG.cs",
+              "ViewState": "AgIAALoFAAAAAAAAAAAAAMUFAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmNewTicketPG.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmNewTicketPG.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmNewTicketPG.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmNewTicketPG.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmLstView.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmLstView.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmLstView.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmLstView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmDashSA.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmDashSA.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmDashSA.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmDashSA.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmDashSA.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmEmployeeTicketViewSB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeTicketViewSB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEmployeeTicketViewSB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeTicketViewSB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmAgentAllTicketsAssignedMB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAgentAllTicketsAssignedMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmAgentAllTicketsAssignedMB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAgentAllTicketsAssignedMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmAgentViewChartTypeColumnMB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAgentViewChartTypeColumnMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmAgentViewChartTypeColumnMB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAgentViewChartTypeColumnMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmMemberManagementRN.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmMemberManagementRN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmMemberManagementRN.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmMemberManagementRN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmNewticketSG.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmNewticketSG.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmNewticketSG.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmNewticketSG.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmViewAgentRN.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewAgentRN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmViewAgentRN.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewAgentRN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmAgentTabularViewFixMB.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAgentTabularViewFixMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmAgentTabularViewFixMB.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAgentTabularViewFixMB.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmAgentTabularViewFixMB.cs",
+              "ViewState": "AgIAANsDAAAAAAAAAAAtwPIDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "frmBlogAL.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmBlogAL.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmBlogAL.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmBlogAL.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmBlogAL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAD4vxEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frmMemberManagementRN.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmMemberManagementRN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmMemberManagementRN.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmMemberManagementRN.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmMemberManagementRN.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAuwGYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmAddAgentRN.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAddAgentRN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmAddAgentRN.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAddAgentRN.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmAddAgentRN.cs",
+              "ViewState": "AgIAAI0BAAAAAAAAAAAQwJ4BAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "frmEditAgentRN.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEditAgentRN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEditAgentRN.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEditAgentRN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "frmEditAgentRN.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEditAgentRN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEditAgentRN.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEditAgentRN.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmEditAgentRN.cs",
+              "ViewState": "AgIAAH0BAAAAAAAAAAAowIUBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "frmDashSA.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmDashSA.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmDashSA.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmDashSA.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "frmLoginVN.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmLoginVN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmLoginVN.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmLoginVN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "frmResetpasswordVN.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmResetpasswordVN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmResetpasswordVN.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmResetpasswordVN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "frmViewTicketVN.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewTicketVN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmViewTicketVN.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewTicketVN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "frmEmployeeDetailsSB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "frmViewTicketSG.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewTicketSG.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmViewTicketSG.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewTicketSG.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmViewTicketSG.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "frmViewTicketSG.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewTicketSG.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmViewTicketSG.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewTicketSG.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "frmViewIPTicketPG.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewIPTicketPG.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmViewIPTicketPG.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewIPTicketPG.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "frmViewVN.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewVN.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmViewVN.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmViewVN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "frmEmployeeFixStatusSpecificTabularViewMB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeFixStatusSpecificTabularViewMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEmployeeFixStatusSpecificTabularViewMB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeFixStatusSpecificTabularViewMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "frmEmployeeViewChartTypeColumnMB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeViewChartTypeColumnMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEmployeeViewChartTypeColumnMB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeViewChartTypeColumnMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "frmGridViewStatusMB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmGridViewStatusMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmGridViewStatusMB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmGridViewStatusMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "frmGridViewStatusEmployeeMB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmGridViewStatusEmployeeMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmGridViewStatusEmployeeMB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmGridViewStatusEmployeeMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "frmgridviewAllAgentReport.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmgridviewAllAgentReport.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmgridviewAllAgentReport.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmgridviewAllAgentReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "frmReportMB.cs [Design]",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmReportMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmReportMB.cs",
+              "ToolTip": "E:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmReportMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "frmGridviewStatuswiseEmployee.resx",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmGridviewStatuswiseEmployee.resx",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmGridviewStatuswiseEmployee.resx",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmGridviewStatuswiseEmployee.resx",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmGridviewStatuswiseEmployee.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002870|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "frmGridViewStatusMB.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmGridViewStatusMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmGridViewStatusMB.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmGridViewStatusMB.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmGridViewStatusMB.cs",
+              "ViewState": "AgIAAIMDAAAAAAAAAAAtwJYDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "frmGridViewStatusEmployeeMB.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmGridViewStatusEmployeeMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmGridViewStatusEmployeeMB.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmGridViewStatusEmployeeMB.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmGridViewStatusEmployeeMB.cs",
+              "ViewState": "AgIAAJgCAAAAAAAAAAAtwKsCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "frmAgentAllTicketsAssignedMB.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAgentAllTicketsAssignedMB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmAgentAllTicketsAssignedMB.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmAgentAllTicketsAssignedMB.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmAgentAllTicketsAssignedMB.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAtwNAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "frmEmployeeDetailsSB.Designer.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.Designer.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.Designer.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.Designer.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.Designer.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAkwJUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "frmEmployeeDetailsSB.cs",
+              "DocumentMoniker": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.cs",
+              "RelativeDocumentMoniker": "TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.cs",
+              "ToolTip": "F:\\TicketingToolFinalMergeProject\\TickVibe\\TickVibe\\TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.cs",
+              "RelativeToolTip": "TickVibe\\Resources\\TickVibe\\frmEmployeeDetailsSB.cs",
+              "ViewState": "AgIAAGcDAAAAAAAAAAAAAGwDAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:02:20.392Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
