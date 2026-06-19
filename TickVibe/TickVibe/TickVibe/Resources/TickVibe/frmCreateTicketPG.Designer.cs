@@ -51,6 +51,7 @@
             this.lblType = new Siticone.UI.WinForms.SiticoneLabel();
             this.lblCategory = new Siticone.UI.WinForms.SiticoneLabel();
             this.lblCreateTicket = new Siticone.UI.WinForms.SiticoneLabel();
+            this.button1 = new System.Windows.Forms.Button();
             this.siticonePanel1.SuspendLayout();
             this.siticonePanel2.SuspendLayout();
             this.SuspendLayout();
@@ -69,6 +70,7 @@
             // siticonePanel2
             // 
             this.siticonePanel2.BackColor = System.Drawing.Color.White;
+            this.siticonePanel2.Controls.Add(this.button1);
             this.siticonePanel2.Controls.Add(this.btnSubmit);
             this.siticonePanel2.Controls.Add(this.btnViewYourTicket);
             this.siticonePanel2.Controls.Add(this.siticoneButton1);
@@ -400,6 +402,15 @@
             this.lblCreateTicket.TabIndex = 0;
             this.lblCreateTicket.Text = "CreateTicket";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(220, 28);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmCreateTicketPG
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -440,5 +451,6 @@
         private Siticone.UI.WinForms.SiticoneButton siticoneButton1;
         private Siticone.UI.WinForms.SiticoneButton btnSubmit;
         private Siticone.UI.WinForms.SiticoneButton btnViewYourTicket;
+        private System.Windows.Forms.Button button1;
     }
 }
